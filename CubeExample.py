@@ -1,9 +1,10 @@
-import pygame 
+import pygame
 from pygame.locals import *
 
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
+print("Hi there!")
 pygame.init()
 display = (800, 800)
 pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
